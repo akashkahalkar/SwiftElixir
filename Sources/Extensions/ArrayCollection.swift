@@ -1,7 +1,7 @@
 
 import Foundation
 
-extension String {
+extension Array {
     public var isNotEmpty: Bool {
         return !isEmpty
     }

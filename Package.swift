@@ -10,6 +10,7 @@ let package = Package(
         .library(
             name: "SwiftElixir",
             targets: ["SwiftElixir"]),
+        .library(name: "Extensions", targets: ["Extensions"])
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -21,7 +22,7 @@ let package = Package(
             dependencies: ["SwiftElixir"]),
         .target(
             name: "Extensions",
-            path: "Sources/Extensions"
+            path: "Extensions"
         )
     ]
 )

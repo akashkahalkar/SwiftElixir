@@ -7,6 +7,7 @@ extension String {
         return !isEmpty
     }
     
+    //MARK: - hashing related function
     public enum HashType {
         case sha256, md5
     }

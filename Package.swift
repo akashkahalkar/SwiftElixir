@@ -12,6 +12,7 @@ let package = Package(
     ],
     targets: [
         .target(name: "Extensions"),
+        .testTarget(name: "SwiftElixirExtensionTest", dependencies: ["Extensions"]),
         .target(name: "NetworkUtilities",
                 path: "Sources/Utilities/")
     ]

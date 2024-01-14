@@ -13,6 +13,7 @@ extension DateFormatter {
         let df = DateFormatter()
         df.dateStyle = .full
         df.timeStyle = .full
+        df.timeZone = TimeZone(abbreviation: "IST")
         return df
     }()
 }

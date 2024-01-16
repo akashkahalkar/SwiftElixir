@@ -1,6 +1,5 @@
 //
 //  File.swift
-//  
 //
 //  Created by akash kahalkar on 16/01/24.
 //
@@ -25,8 +24,7 @@ extension Color {
         default:
             (alpha, red, green, blue) = (1, 1, 1, 0)
         }
-        
-        
+
         self.init(
             .sRGB,
             red: Double(red) / 255,

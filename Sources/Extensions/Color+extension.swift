@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-@available(macOS 10.15, *)
 extension Color {
     // get color from hex values
     init(hex: String) {
@@ -25,7 +24,6 @@ extension Color {
         default:
             (alpha, red, green, blue) = (1, 1, 1, 0)
         }
-        
         
         self.init(
             .sRGB,

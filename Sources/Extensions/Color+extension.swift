@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-@available(macOS 10.15, *)
 extension Color {
     // get color from hex values
     init(hex: String) {
